@@ -1,7 +1,7 @@
 # Firewall Traffic Analysis
 
 ## Description
-This project analyzes firewall traffic logs and performs NAT audit using Python.
+This project analyzes firewall traffic logs and performs NAT audit using Python to identify suspicious network activity.
 
 ## Features
 - Analysis of ALLOW / DENY traffic
@@ -17,18 +17,21 @@ This project analyzes firewall traffic logs and performs NAT audit using Python.
 - Matplotlib
 - Seaborn
 
+## Dataset
+Sample dataset: `firewall_traffic.csv`
+
 ## How it works
-- Reads firewall logs from CSV file
+- Reads firewall logs from a CSV file
 - Groups traffic by hour and action
 - Detects unusual patterns in network activity
 - Identifies risky open ports and abnormal traffic
-- Generates charts for visual analysis
+- Generates charts for analysis
 
 ## Output
 - Top source IPs
 - Top destination ports
 - High-risk traffic alerts
-- Traffic charts (saved in /charts folder)
+- Traffic charts (saved in `/charts` folder)
 
 ## Project Goal
-To demonstrate basic firewall log analysis and network security monitoring.
+To demonstrate basic firewall log analysis and network security monitoring techniques.
